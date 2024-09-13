@@ -72,7 +72,7 @@ public class TestConfig implements CommandLineRunner {
         o1.setPayment(pay1);
 
         orderRepository.save(o1);
-        
+
         productRepository.saveAll(Arrays.asList(p1, p2, p3, p4, p5));
     }
 }
